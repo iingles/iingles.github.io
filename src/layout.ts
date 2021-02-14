@@ -13,10 +13,10 @@ export const layout = ():HTMLElement => {
     const actionRow = row()
     const dataRow = row()
 
-    actionRow.appendChild(actionColumn('Person', 'Content text', 'people'))
-    actionRow.appendChild(actionColumn('Planet', 'Content text', 'planets'))
-    actionRow.appendChild(actionColumn('Starship', 'Content text', 'starships'))
-    actionRow.appendChild(actionColumn('Species', 'Content text', 'species'))
+    actionRow.appendChild(actionColumn('Person', 'Star Wars People', 'people'))
+    actionRow.appendChild(actionColumn('Planet', 'Star Wars Planets', 'planets'))
+    actionRow.appendChild(actionColumn('Starship', 'Star Wars Starships', 'starships'))
+    actionRow.appendChild(actionColumn('Species', 'Star Wars Species', 'species'))
 
     container.appendChild(actionRow)
     container.appendChild(dataRow)
